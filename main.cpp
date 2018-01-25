@@ -16,11 +16,11 @@
 using namespace caffe;  
 
 //网络配置文件
-const std::string model_file{ "lenet_train_test_.prototxt" };  
+const std::string model_file{ "./build/lenet.prototxt" };  
 //训练好的模型文件
-const std::string trained_file{ "lenet_iter_10000.caffemodel" };  
+const std::string trained_file{ "./build/lenet_iter_10000.caffemodel" };  
 //测试图片集路径
-const std::string image_path{ "./images/" };  
+const std::string image_path{ "./images/num_4.png" };  
 //像素值缩放比例
 const float scale_value = 0.00390625;
 

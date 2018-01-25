@@ -7,9 +7,9 @@ set(CMAKE_CXX_STANDARD 11)
 #添加CPU_ONLY宏定义，只在CPU模式下运行
 ADD_DEFINITIONS(-DCPU_ONLY)
 #include_directories(include)
-#依赖库路径
+#依赖库路径，要根据自己的路径做下修改
 link_directories("/home/zch/Desktop/caffe-master/lib")
-#头文件目录
+#头文件目录，要根据自己的路径做下修改
 include_directories("/home/zch/Desktop/caffe-master/include")
 link_directories("/usr/local/cuda/lib64")
 #指定源代码
